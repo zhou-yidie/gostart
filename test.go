@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func test() {
+func main() {
 	http.Handle("/", http.FileServer(http.Dir(".")))
 
 	fmt.Println("hello,go")
