@@ -9,8 +9,8 @@ import (
 func main() {
 	r := gin.Default()
 
-	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "ok")
+	r.GET("/hello", func(c *gin.Context) {
+		c.String(http.StatusOK, "really ok")
 	})
 
 	r.Run()
