@@ -27,4 +27,6 @@ func main() {
 		fmt.Printf("load redis failed, err:%v\n", err)
 		return
 	}
+
+	// 除夕快乐
 }
